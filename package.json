@@ -1,0 +1,31 @@
+{
+  "name": "webpack-three",
+  "version": "1.0.0",
+  "description": "Basic webpack configuration for your three.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehquan/webpack-three.git"
+  },
+  "author": "quan.le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lehquan/webpack-three/issues"
+  },
+  "homepage": "https://github.com/lehquan/webpack-three#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "three": "^0.142.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.1.0"
+  }
+}
